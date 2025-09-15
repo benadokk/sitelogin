@@ -1,0 +1,186 @@
+/* Reset geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+}
+
+/* ==================== LOGIN ==================== */
+.login-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.images-side {
+  display: flex;
+  gap: 10px;
+  margin-right: 40px;
+}
+
+.images-side .card {
+  width: 150px;
+  height: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.images-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.form-side {
+  background: #fff;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.logo {
+  font-family: 'Billabong', cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: #3897f0;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background: #2878cc;
+}
+
+.divider {
+  margin: 15px 0;
+  font-size: 12px;
+  color: #999;
+}
+
+.facebook-login {
+  background: transparent;
+  border: none;
+  color: #385185;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.forgot {
+  display: block;
+  margin-top: 10px;
+  color: #00376b;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.signup {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup a {
+  color: #3897f0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* ==================== HOME ==================== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+}
+
+.navbar .logo {
+  font-size: 32px;
+}
+
+.navbar input {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.icons {
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.feed {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.post {
+  width: 400px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.post-header {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.post img {
+  width: 100%;
+  display: block;
+}
+
+.actions {
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.post p {
+  padding: 0 10px 10px;
+  font-size: 14px;
+}
